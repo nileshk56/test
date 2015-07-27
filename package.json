@@ -1,0 +1,31 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilk2/test.git"
+  },
+  "author": "Nilesh Kangane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilk2/test/issues"
+  },
+  "homepage": "https://github.com/nilk2/test#readme",
+  "dependencies":{
+    "express":"*",
+    "jade":"*",
+    "body-parser":"*",
+    "cookie-parser":"*",
+    "express-session":"*",
+    "connect-mongo":"*",
+    "mongoose":"*",
+    "passport":"*",	
+    "compression":"*"
+  }
+}
